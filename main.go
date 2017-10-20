@@ -14,9 +14,9 @@ import (
 var mutex = &sync.Mutex{}
 
 // right now, it cannot handle spacebar and other languages, need to extend it later
-var wordList = []string{"cat", "dog", "max", "delicious", "games", "ant", "min", "computer", "macbook", "microsoft", "apple", "pineapple",
-	"genesis", "Thailand", "Google", "food", "Golang", "gopher", "httpserver", "cassandra", "zookeeper", "hadoop", "combination", "algorithm",
-	"wonderland", "Game of Thrones"}
+var wordList = []string{"wow", "docker", "such", "delicious", "gulien", "simsim", "glorious", "computer", "container", "reallygood", "apple", "pineapple",
+	"poulpihd", "marine", "leo", "hugo", "Growth", "squali", "toto", "marion", "stagiaires", "realgame", "masterdocker",
+	"enfinfini", "drink"}
 
 type Word struct {
 	x, y         int
