@@ -14,7 +14,7 @@ import (
 var mutex = &sync.Mutex{}
 
 // right now, it cannot handle spacebar and other languages, need to extend it later
-var wordList = []string{"wow", "docker", "such", "delicious", "gulien", "simsim", "glorious", "computer", "container", "reallygood", "apple", "pineapple",
+var wordList = []string{"wow", "docker", "such", "delicious", "gulien", "simsim", "glorious", "container", "reallygood", "apple", "pineapple",
 	"poulpihd", "marine", "leo", "hugo", "Growth", "squali", "toto", "marion", "stagiaires", "realgame", "masterdocker",
 	"enfinfini", "drink"}
 
